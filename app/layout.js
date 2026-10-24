@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import Script from 'next/script';
 import './globals.css';
 import { siteUrl } from './components/site';
 
 export const metadata = {
   metadataBase: new URL(siteUrl()),
+  verification: { google: 'hDA3UX-mtwre9TYsx13BNkmkscNBsjmN4l_rabL0sag' },
   title: {
     default: 'GamingToSpace — Discover Small & Hidden Android Games',
     template: '%s | GamingToSpace',
@@ -26,6 +28,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-MT4MNXC1JS" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MT4MNXC1JS');`}
+        </Script>
         <header className="top">
           <div className="header-in">
             <Link className="logo" href="/">🎮 Gaming<span>ToSpace</span></Link>
