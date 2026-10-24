@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export function siteUrl() {
-  return (process.env.NEXT_PUBLIC_SITE_URL || 'https://gamingtospace.com').replace(/\/$/, '');
+  return (process.env.NEXT_PUBLIC_SITE_URL || 'https://gamingto.space').replace(/\/$/, '');
 }
 
 export function slugify(text) {
