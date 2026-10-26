@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8705324713774273" crossOrigin="anonymous" strategy="afterInteractive" />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-MT4MNXC1JS" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MT4MNXC1JS');`}
