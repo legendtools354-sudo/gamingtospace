@@ -912,6 +912,34 @@ export const GAMES = [
     description: "PROJECT R: Ultra Car Simulator is a racing game for Android by Streifenbarr. Customise over 100 cars and cruise, drift and race through a large open world with missions, time trials and changing weather.\n\nIt is about speed and control in short races or runs, which makes it easy to pick up for a few minutes at a time.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.47 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
     checked: "2026-10-26"
   },
+  {
+    slug: "maniacs-playground-drift-city",
+    title: "Maniac's Playground.Drift City",
+    developer: "PeliKeN Game Studio",
+    category: "Action",
+    installs: "10,000+",
+    rating: 4.0,
+    package: "gta.racing.sandbox",
+    playUrl: "https://play.google.com/store/apps/details?id=gta.racing.sandbox",
+    icon: "https://lh3.googleusercontent.com/L7zU4cr5OdGr09l5TKo3srXzqqq-Ht5NQqGJyOC6Sgp2edIfBwV58MdMOnVxnqdE1ANp5mZfSls8_amaMIm2PJ9NX2okenpOUz3l",
+    summary: "Build a gang empire in a top-down GTA-style sandbox of car chases, shootouts and roguelike runs through Drift City.",
+    description: "Maniac's Playground.Drift City is an action game for Android by PeliKeN Game Studio. Build a gang empire in a top-down GTA-style sandbox of car chases, shootouts and roguelike runs through Drift City.\n\nSessions are fast and direct, with the focus on reacting, aiming or fighting through each level rather than long setup or story.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.0 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install \u2014 we do not host APK files ourselves.",
+    checked: "2026-10-26"
+  },
+  {
+    slug: "new-york-mysteries-6",
+    title: "New York Mysteries 6",
+    developer: "FIVE-BN GAMES",
+    category: "Adventure",
+    installs: "10,000+",
+    rating: 4.9,
+    package: "com.fivebn.nym6.f2p",
+    playUrl: "https://play.google.com/store/apps/details?id=com.fivebn.nym6.f2p",
+    icon: "https://lh3.googleusercontent.com/b55ViQnQ2B52KTRuyHIN_m__b3_UxtspIQY5BDCOfsP7qcShV09w-ddh4c0Pg5nyL5_bxlBlWAvwxHu_32_nYvQtG4q6Lc_Fec2H",
+    summary: "Journalist Laura James hunts a supernatural kidnapper through 1966 New York in this hidden-object mystery packed with puzzles and mini-games.",
+    description: "New York Mysteries 6 is an adventure game for Android by FIVE-BN GAMES. Journalist Laura James hunts a supernatural kidnapper through 1966 New York in this hidden-object mystery packed with puzzles and mini-games.\n\nIt is driven by exploration and what happens next, so it suits players who like to follow a story or a mystery at their own pace.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.9 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install \u2014 we do not host APK files ourselves.",
+    checked: "2026-10-26"
+  },
 ];
 
 export const CATEGORIES = [...new Set(GAMES.map((g) => g.category))].sort();
