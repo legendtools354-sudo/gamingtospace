@@ -967,6 +967,34 @@ export const GAMES = [
     summary: "Jump, dash and hunt for secrets across colourful handcrafted worlds as Oby tries to restore peace to the Fruitimal Kingdom.",
     description: "Oby Adventure: Platformer is a adventure game for Android by Oby's Farm. Jump, dash and hunt for secrets across colourful handcrafted worlds as Oby tries to restore peace to the Fruitimal Kingdom.\n\nIt is driven by exploration and what happens next, so it suits players who like to follow a story or a mystery at their own pace.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 3.2 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
     checked: "2026-10-27"
+  },
+  {
+    slug: "split-retro-arcade",
+    title: "SPLIT: Retro Arcade",
+    developer: "ThunderPunch Games",
+    category: "Arcade",
+    installs: "1,000+",
+    rating: 5.0,
+    package: "com.thunderpunchgames.split",
+    playUrl: "https://play.google.com/store/apps/details?id=com.thunderpunchgames.split",
+    icon: "https://play-lh.googleusercontent.com/zWXgcTr45Ob5sD1yAhQVINF0GuinYZzUkCboqzMVvKqGO5yQEQup0Syy4FXBNDmsROSoiehqC_q7i4pSPOTdvw",
+    summary: "A retro space dodger where you steer through obstacles, collect stars, unlock a faster Insane mode and face boss battles.",
+    description: "SPLIT: Retro Arcade is an arcade game for Android by ThunderPunch Games. A retro space dodger where you steer through obstacles, collect stars, unlock a faster Insane mode and face boss battles.\n\nIt is made for quick, repeatable runs where a high score or a cleaner run is the main reason to play one more round.\n\nOn Google Play it sits in the 1,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 5.0 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install \u2014 we do not host APK files ourselves.",
+    checked: "2026-10-27"
+  },
+  {
+    slug: "afg-ludo",
+    title: "AFG Ludo",
+    developer: "AFGCoin TM",
+    category: "Board",
+    installs: "5,000+",
+    rating: 5.0,
+    package: "com.afgcoin.afgcoin_ladu",
+    playUrl: "https://play.google.com/store/apps/details?id=com.afgcoin.afgcoin_ladu",
+    icon: "https://play-lh.googleusercontent.com/W6ku8yV9eBXL_qMfq8WQ6SBumxwDIyLZ1L5baY03HKLTxqR4X0P2vPdN6xzTgp8qwUQ_sKmQ5h4bYAMh_FibtQ",
+    summary: "Online Ludo matches with friends and players worldwide, with fast matchmaking, classic dice-race play and a global leaderboard.",
+    description: "AFG Ludo is a board game for Android by AFGCoin TM. Online Ludo matches with friends and players worldwide, with fast matchmaking, classic dice-race play and a global leaderboard.\n\nIt keeps the classic board feel while adding a mobile-friendly pace, so a full match fits easily into a short break.\n\nOn Google Play it sits in the 5,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 5.0 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install \u2014 we do not host APK files ourselves.",
+    checked: "2026-10-27"
   }
 ];
 
