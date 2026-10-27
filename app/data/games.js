@@ -940,6 +940,34 @@ export const GAMES = [
     description: "New York Mysteries 6 is an adventure game for Android by FIVE-BN GAMES. Journalist Laura James hunts a supernatural kidnapper through 1966 New York in this hidden-object mystery packed with puzzles and mini-games.\n\nIt is driven by exploration and what happens next, so it suits players who like to follow a story or a mystery at their own pace.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.9 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install \u2014 we do not host APK files ourselves.",
     checked: "2026-10-26"
   },
+  {
+    slug: "life-is-a-roguelike",
+    title: "Life is a Roguelike",
+    developer: "PIXEL RABBIT LIMITED",
+    category: "Adventure",
+    installs: "1,000+",
+    rating: 4.8,
+    package: "net.pixelrabbit.cs",
+    playUrl: "https://play.google.com/store/apps/details?id=net.pixelrabbit.cs",
+    icon: "https://lh3.googleusercontent.com/XUdszQAv5iK6g4QKBoWmqMVjYvqGUhfXPSWQHJVUm-gyMPHdL1HDVLedbf_zhUB7F_68b8g_bswgXdeAR4JfmZKX49iLKBlOYHnK",
+    summary: "Die, loot and upgrade your way through bizarre side-scrolling stages where every failed run makes your next attempt stronger.",
+    description: "Life is a Roguelike is a adventure game for Android by PIXEL RABBIT LIMITED. Die, loot and upgrade your way through bizarre side-scrolling stages where every failed run makes your next attempt stronger.\n\nIt is driven by exploration and what happens next, so it suits players who like to follow a story or a mystery at their own pace.\n\nOn Google Play it sits in the 1,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.8 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-27"
+  },
+  {
+    slug: "oby-adventure-platformer",
+    title: "Oby Adventure: Platformer",
+    developer: "Oby's Farm",
+    category: "Adventure",
+    installs: "10,000+",
+    rating: 3.2,
+    package: "com.obysfarm.adventure",
+    playUrl: "https://play.google.com/store/apps/details?id=com.obysfarm.adventure",
+    icon: "https://lh3.googleusercontent.com/ZtP9At-apQYNObXU42EO0s45xSAtlnHAR8jrsq937a8mXHFQmexvdLNtwzOY297C1cepil85h7mvDCGR1iiUx6woVFwGulSWK2De",
+    summary: "Jump, dash and hunt for secrets across colourful handcrafted worlds as Oby tries to restore peace to the Fruitimal Kingdom.",
+    description: "Oby Adventure: Platformer is a adventure game for Android by Oby's Farm. Jump, dash and hunt for secrets across colourful handcrafted worlds as Oby tries to restore peace to the Fruitimal Kingdom.\n\nIt is driven by exploration and what happens next, so it suits players who like to follow a story or a mystery at their own pace.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 3.2 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-27"
+  }
 ];
 
 export const CATEGORIES = [...new Set(GAMES.map((g) => g.category))].sort();
