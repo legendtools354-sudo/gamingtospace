@@ -995,6 +995,34 @@ export const GAMES = [
     summary: "Online Ludo matches with friends and players worldwide, with fast matchmaking, classic dice-race play and a global leaderboard.",
     description: "AFG Ludo is a board game for Android by AFGCoin TM. Online Ludo matches with friends and players worldwide, with fast matchmaking, classic dice-race play and a global leaderboard.\n\nIt keeps the classic board feel while adding a mobile-friendly pace, so a full match fits easily into a short break.\n\nOn Google Play it sits in the 5,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 5.0 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install \u2014 we do not host APK files ourselves.",
     checked: "2026-10-27"
+  },
+  {
+    slug: "gin-rummy-master-offline",
+    title: "Gin Rummy Master Offline",
+    developer: "Funfuse Games",
+    category: "Card",
+    installs: "5,000+",
+    rating: 4.7,
+    package: "com.funfuse.ginrummy",
+    playUrl: "https://play.google.com/store/apps/details?id=com.funfuse.ginrummy",
+    icon: "https://play-lh.googleusercontent.com/20Mi6mTafWT3oG6fh2IOnl1mwXZlx3SW-Kyjlyp-PF25PsPjqp-4xag-nRpYFLmrxEjf9bvdjiMgFd_eN-85vQ",
+    summary: "Offline gin rummy against adjustable AI or in local multiplayer, with custom rules, scoring targets and progress stats.",
+    description: "Gin Rummy Master Offline is a card game for Android by Funfuse Games. Offline gin rummy against adjustable AI or in local multiplayer, with custom rules, scoring targets and progress stats.\n\nIt is a calm, rules-based card game that is easy to learn and well suited to short, focused sessions.\n\nOn Google Play it sits in the 5,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.7 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-28"
+  },
+  {
+    slug: "bubblosaic-picture-merge",
+    title: "Bubblosaic: Picture Merge",
+    developer: "Mohamed naveed",
+    category: "Casual",
+    installs: "5,000+",
+    rating: 5.0,
+    package: "com.webpack.picturemerge",
+    playUrl: "https://play.google.com/store/apps/details?id=com.webpack.picturemerge",
+    icon: "https://lh3.googleusercontent.com/sOetvnGJZ5PvKY_d3-WfP3x7D4FTwCmorHpKRPnUDOA0-UMPULImPaAAWx8EtGuuPRbS9_pEg0ThNXNWdnbubz7BcJ1rb2Ag8mpZbuQ6jbdCKnULeus",
+    summary: "Drag bubbles to merge matching picture pieces and reveal cheerful underwater images level by level.",
+    description: "Bubblosaic: Picture Merge is a casual game for Android by Mohamed naveed. Drag bubbles to merge matching picture pieces and reveal cheerful underwater images level by level.\n\nIt is a light, low-pressure game that is easy to learn in the first minute and comfortable to play in short bursts.\n\nOn Google Play it sits in the 5,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 5.0 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-28"
   }
 ];
 
