@@ -1023,6 +1023,34 @@ export const GAMES = [
     summary: "Drag bubbles to merge matching picture pieces and reveal cheerful underwater images level by level.",
     description: "Bubblosaic: Picture Merge is a casual game for Android by Mohamed naveed. Drag bubbles to merge matching picture pieces and reveal cheerful underwater images level by level.\n\nIt is a light, low-pressure game that is easy to learn in the first minute and comfortable to play in short bursts.\n\nOn Google Play it sits in the 5,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 5.0 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
     checked: "2026-10-28"
+  },
+  {
+    slug: "mx-bikes-moto-3d-dirt-racing",
+    title: "MX Bikes: Moto 3D Dirt Racing",
+    developer: "Tantrum Games Studio",
+    category: "Racing",
+    installs: "10,000+",
+    rating: null,
+    package: "com.TantrumGamesStudio.BikeMud",
+    playUrl: "https://play.google.com/store/apps/details?id=com.TantrumGamesStudio.BikeMud",
+    icon: "https://lh3.googleusercontent.com/M538jZn6kzL06kiYaUcNF4PllhYRf29o4eqtz-cpW4fw_Q5LCCMkN67XxPOd3W1ooCozZZ2DW8bAXghCZ0d3UXgmKJY9qAh0A1EXcw",
+    summary: "Race dirt bikes over rugged motocross tracks, pulling wheelies and backflips while climbing a career from rookie to champion.",
+    description: "MX Bikes: Moto 3D Dirt Racing is a racing game for Android by Tantrum Games Studio. Race dirt bikes over rugged motocross tracks, pulling wheelies and backflips while climbing a career from rookie to champion.\n\nIt mixes stunt riding with a career climb, so each race is a chance to unlock faster bikes and take on harder tracks.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It does not show a public rating yet on Google Play, which is common for very new or small titles. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-28"
+  },
+  {
+    slug: "farm-town-cozy-village-story",
+    title: "Farm Town: Cozy Village Story",
+    developer: "foranj.games",
+    category: "Simulation",
+    installs: "10,000+",
+    rating: 4.29,
+    package: "com.foranj.farmtown.classic",
+    playUrl: "https://play.google.com/store/apps/details?id=com.foranj.farmtown.classic",
+    icon: "https://lh3.googleusercontent.com/ClR4OJ60axQ_3e4nVvl3N0sZ08p1ZW8--bon8zYVKiC5xmPdZ9l8fu-EWNS2UCnkM1O3R_3wDWCoxOiWCl2fSuvJkwxgQrpyyt_G",
+    summary: "Grow crops, raise pets, and build factories in a relaxing village where you sell goods, decorate your farm, and follow a cozy story at your own pace.",
+    description: "Farm Town: Cozy Village Story is a simulation game for Android by foranj.games. Grow crops, raise pets, and build factories in a relaxing village where you sell goods, decorate your farm, and follow a cozy story at your own pace.\n\nIt is a calm, open-ended game that is easy to pick up for a few minutes and comfortable to play at your own pace, with no pressure to rush the story.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.29 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-28"
   }
 ];
 
