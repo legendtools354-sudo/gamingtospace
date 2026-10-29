@@ -1051,6 +1051,34 @@ export const GAMES = [
     summary: "Grow crops, raise pets, and build factories in a relaxing village where you sell goods, decorate your farm, and follow a cozy story at your own pace.",
     description: "Farm Town: Cozy Village Story is a simulation game for Android by foranj.games. Grow crops, raise pets, and build factories in a relaxing village where you sell goods, decorate your farm, and follow a cozy story at your own pace.\n\nIt is a calm, open-ended game that is easy to pick up for a few minutes and comfortable to play at your own pace, with no pressure to rush the story.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.29 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
     checked: "2026-10-28"
+  },
+  {
+    slug: "defence-tower-idle-td-strategy",
+    title: "Defence Tower:Idle TD Strategy",
+    developer: "Abest Team",
+    category: "Strategy",
+    installs: "1,000+",
+    rating: 4.64,
+    package: "com.ahmedasem.defencetower",
+    playUrl: "https://play.google.com/store/apps/details?id=com.ahmedasem.defencetower",
+    icon: "https://lh3.googleusercontent.com/tIL9AZK7mj7FFvLCvCbMlY5MQSA7bS5ROykMMOIBWa0joDmfgf8R0XsW_p9zdQ1QjdZ5wtKlPSW16HfTBgiKf57He0EStBiebjFV",
+    summary: "Defend your tower against ever-stronger enemy waves by upgrading your hero, skills, and defences to survive as long as possible.",
+    description: "Defence Tower:Idle TD Strategy is a strategy game for Android by Abest Team. Defend your tower against ever-stronger enemy waves by upgrading your hero, skills, and defences to survive as long as possible.\n\nIt asks you to think a move ahead, manage what you have, and adapt when a plan does not work — a good fit for players who like planning over reflexes.\n\nOn Google Play it sits in the 1,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.64 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-29"
+  },
+  {
+    slug: "wordiko-word-puzzle",
+    title: "Wordiko: Word Puzzle",
+    developer: "Mertcan Çetin",
+    category: "Word",
+    installs: "5,000+",
+    rating: null,
+    package: "com.wordiko.wordiko",
+    playUrl: "https://play.google.com/store/apps/details?id=com.wordiko.wordiko",
+    icon: "https://lh3.googleusercontent.com/CPgun9fikUbwM8w8z3Br8U8bNjHdReKz3LqprgzoTCwa3AK0h2s8AIBlRQRVZs2RtNLEZWVEU8zOe0z4qpY2_R2dPoH-3Bs_aLtU",
+    summary: "A relaxing letter-connecting puzzle that pairs hidden-word hunts with meaning-matching and pronunciation practice to build vocabulary in short sessions.",
+    description: "Wordiko: Word Puzzle is a word game for Android by Mertcan Çetin. A relaxing letter-connecting puzzle that pairs hidden-word hunts with meaning-matching and pronunciation practice to build vocabulary in short sessions.\n\nIt suits quick daily play and longer relaxed sessions alike, and it is a good pick if you enjoy word games that do not demand fast reflexes.\n\nOn Google Play it sits in the 5,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It does not show a public rating yet on Google Play, which is common for very new or small titles. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-29"
   }
 ];
 
