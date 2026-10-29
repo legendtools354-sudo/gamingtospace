@@ -1079,7 +1079,35 @@ export const GAMES = [
     summary: "A relaxing letter-connecting puzzle that pairs hidden-word hunts with meaning-matching and pronunciation practice to build vocabulary in short sessions.",
     description: "Wordiko: Word Puzzle is a word game for Android by Mertcan Çetin. A relaxing letter-connecting puzzle that pairs hidden-word hunts with meaning-matching and pronunciation practice to build vocabulary in short sessions.\n\nIt suits quick daily play and longer relaxed sessions alike, and it is a good pick if you enjoy word games that do not demand fast reflexes.\n\nOn Google Play it sits in the 5,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It does not show a public rating yet on Google Play, which is common for very new or small titles. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
     checked: "2026-10-29"
-  }
+  },
+  {
+    slug: "sunny-bus-jam",
+    title: "Sunny Bus Jam",
+    developer: "nazer gaming studio",
+    category: "Casual",
+    installs: "10,000+",
+    rating: 4.67,
+    package: "com.nazer.gaming.busjam",
+    playUrl: "https://play.google.com/store/apps/details?id=com.nazer.gaming.busjam",
+    icon: "https://lh3.googleusercontent.com/v5jkF1sRTMQ1wt1oeIPEHfegUCzzJoyG1KXj31JMAYL2MmmG9liEqvm4xIu1dXRLtl2oALxJAqdcocskDxvkMAjsXdFvwBm2Q9DN",
+    summary: "Sort colour-matched passengers onto buses and untangle a crowded parking lot one careful move at a time.",
+    description: "Sunny Bus Jam is a casual game for Android by nazer gaming studio. Sort colour-matched passengers onto buses and untangle a crowded parking lot one careful move at a time.\n\nIt is a light, low-pressure game that is easy to learn in the first minute and comfortable to play in short bursts, with each level asking for one more careful shuffle before the lot clears.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.67 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-29",
+  },
+  {
+    slug: "arrowiq-logic-puzzle",
+    title: "ArrowIQ: Logic Puzzle",
+    developer: "Adaric Music",
+    category: "Puzzle",
+    installs: "5,000+",
+    rating: 4.96,
+    package: "com.arrowiq.logic.puzzle.game",
+    playUrl: "https://play.google.com/store/apps/details?id=com.arrowiq.logic.puzzle.game",
+    icon: "https://lh3.googleusercontent.com/0D21QBcViY0ZPgTSTVKukJvQSTud8y77sgpo32Iquc7iFu8VLzqCfYTJZ1YOPmQrswELyRqPw444oyAeGnZC5KX_ux6Kp2uuXWLwAA",
+    summary: "Work out the correct order to tap arrows off the board in this calm, logic-first brain teaser with daily challenges.",
+    description: "ArrowIQ: Logic Puzzle is a puzzle game for Android by Adaric Music. Work out the correct order to tap arrows off the board in this calm, logic-first brain teaser with daily challenges.\n\nIt is built for short, thoughtful sessions: a few minutes is usually enough for one puzzle, and the difficulty tends to rise steadily rather than jumping all at once.\n\nOn Google Play it sits in the 5,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.96 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-29",
+  },
 ];
 
 export const CATEGORIES = [...new Set(GAMES.map((g) => g.category))].sort();
