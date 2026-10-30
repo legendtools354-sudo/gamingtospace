@@ -1136,7 +1136,34 @@ export const GAMES = [
     description: "PolyFootball is a sports game for Android by Kyle Miceli. Draft, trade, and manage a fantasy football franchise player by player as you chase a PolyBowl title across seasons.\n\nIt focuses on the sport itself — tactics, timing and team choices — rather than flashy extras, which keeps matches quick to understand.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 3.65 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
     checked: "2026-10-30",
   },
-];
+  {
+    slug: "word-brain-trainer-puzzle",
+    title: "Word Brain Trainer - Puzzle",
+    developer: "SUPERCOSI",
+    category: "Word",
+    installs: "5,000+",
+    rating: 3.79,
+    package: "com.supercosi.cosiwordmatch",
+    playUrl: "https://play.google.com/store/apps/details?id=com.supercosi.cosiwordmatch",
+    icon: "https://lh3.googleusercontent.com/Cvw8KIuLHwTStPDP48hcJbe_tXr4yeVzEftK50uxAu7EbcdhcHXcc11IbWTiuRDyl2E-M-JCR_vQm3VmOgiUXxjRzScjlZNE5es59Q",
+    summary: "A fast, competitive 5x5 word-grid battle where players race real opponents to find the highest-scoring words and clear the board.",
+    description: "Word Brain Trainer - Puzzle is a word game for Android by SUPERCOSI. A fast, competitive 5x5 word-grid battle where players race real opponents to find the highest-scoring words and clear the board.\n\nIt suits quick daily play and longer relaxed sessions alike, and it is a good pick if you enjoy word games that do not demand fast reflexes.\n\nOn Google Play it sits in the 5,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 3.79 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-30",
+  },
+  {
+    slug: "cozy-sort-relaxing-puzzle",
+    title: "Cozy Sort: Relaxing Puzzle",
+    developer: "Matchala Games",
+    category: "Puzzle",
+    installs: "10,000+",
+    rating: 4.74,
+    package: "com.matchalagames.sorting",
+    playUrl: "https://play.google.com/store/apps/details?id=com.matchalagames.sorting",
+    icon: "https://play-lh.googleusercontent.com/MURQzIeF9rO4g0ND6LD5RrC_QUiS8-2r_o8Ll-yENeZLweBbW_Q9GvgyQ9HBY9ClCUh6apalWiWUHTMUIAJypQ",
+    summary: "Sort colours into matching tubes at a calm, untimed pace in this relaxing colour-sorting puzzle.",
+    description: "Cozy Sort: Relaxing Puzzle is a puzzle game for Android by Matchala Games. Sort colours into matching tubes at a calm, untimed pace in this relaxing colour-sorting puzzle.\n\nIt is built for short, thoughtful sessions: a few minutes is usually enough for one puzzle, and the difficulty tends to rise steadily rather than jumping all at once.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.74 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-30",
+  },];
 
 export const CATEGORIES = [...new Set(GAMES.map((g) => g.category))].sort();
 export function getGame(slug) { return GAMES.find((g) => g.slug === slug); }
