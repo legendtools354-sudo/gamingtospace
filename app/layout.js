@@ -40,6 +40,7 @@ export default function RootLayout({ children }) {
               <Link href="/">Home</Link>
               <Link href="/popular">Popular</Link>
               <Link href="/games">Games</Link>
+              <Link href="/guides">Guides</Link>
             </nav>
             <form className="search-form" action="/search" method="get" role="search">
               <label htmlFor="site-search" style={{ position: 'absolute', left: '-9999px' }}>Search games</label>
@@ -78,6 +79,7 @@ export default function RootLayout({ children }) {
               <ul>
                 <li><Link href="/popular">Popular</Link></li>
                 <li><Link href="/games">Games</Link></li>
+                <li><Link href="/guides">Guides</Link></li>
                 <li><Link href="/about">About Us</Link></li>
                 <li><Link href="/contact">Contact Us</Link></li>
                 <li><Link href="/privacy-policy">Privacy Policy</Link></li>

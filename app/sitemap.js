@@ -1,4 +1,5 @@
 import { GAMES, CATEGORIES, slugify } from './data/games';
+import { GUIDES } from './data/guides';
 import { siteUrl } from './components/site';
 
 export const dynamic = 'force-static';
@@ -9,6 +10,7 @@ export default function sitemap() {
   const urls = [
     { url: `${base}/`, lastModified: now, changeFrequency: 'daily', priority: 1.0 },
     { url: `${base}/games`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${base}/guides`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/popular`, lastModified: now, changeFrequency: 'daily', priority: 0.8 },
     { url: `${base}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
@@ -22,6 +24,9 @@ export default function sitemap() {
   }
   for (const g of GAMES) {
     urls.push({ url: `${base}/game/${g.slug}`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 });
+  }
+  for (const guide of GUIDES) {
+    urls.push({ url: `${base}/guides/${guide.slug}`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 });
   }
   return urls;
 }
