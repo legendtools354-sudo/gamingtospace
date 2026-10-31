@@ -1191,6 +1191,20 @@ export const GAMES = [
     summary: "Command tiny thumbs and defend against endless waves of enemies in this compact tower-defense game.",
     description: "Tiny Defense is a casual game for Android by Thumb Park. Command tiny thumbs and defend against endless waves of enemies in this compact tower-defense game.\n\nIt is a light, low-pressure game that is easy to learn in the first minute and comfortable to play in short bursts.\n\nOn Google Play it sits in the 1,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It does not show a public rating yet on Google Play, which is common for very new or small titles. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
     checked: "2026-10-31",
+  },
+  {
+    slug: "mini-golf-royal-clash-battle",
+    title: "Mini GOLF Royal - Clash Battle",
+    developer: "INLOGIC SPORTS - football tennis golf soccer",
+    category: "Sports",
+    installs: "10,000+",
+    rating: 4.36,
+    package: "sk.inlogic.minigolf",
+    playUrl: "https://play.google.com/store/apps/details?id=sk.inlogic.minigolf",
+    icon: "https://play-lh.googleusercontent.com/gy82SSnpg6sxlzozGrvQYGtmT-HqAiT773tJXQoVTeBoN2VzfRw_kj5PkbyBEgPZv51KCZU5Fm5h1Qlh1Pgnolg",
+    summary: "Tee off against a golf rival, win putt-putt battles and tour courses in this mini-golf clash game.",
+    description: "Mini GOLF Royal - Clash Battle is a sports game for Android by INLOGIC SPORTS - football tennis golf soccer. Tee off against a golf rival, win putt-putt battles and tour courses in this mini-golf clash game.\n\nIt is a quick, skill-based sports game built around short holes: judge direction, angle and force, dodge bridges, tunnels, ramps and cliff edges, and finish each hole in as few strokes as possible. Coins, chests and unlockable balls and trails keep the progression moving between tournaments.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.36 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-31",
   },];
 
 export const CATEGORIES = [...new Set(GAMES.map((g) => g.category))].sort();
