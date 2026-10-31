@@ -1205,6 +1205,20 @@ export const GAMES = [
     summary: "Tee off against a golf rival, win putt-putt battles and tour courses in this mini-golf clash game.",
     description: "Mini GOLF Royal - Clash Battle is a sports game for Android by INLOGIC SPORTS - football tennis golf soccer. Tee off against a golf rival, win putt-putt battles and tour courses in this mini-golf clash game.\n\nIt is a quick, skill-based sports game built around short holes: judge direction, angle and force, dodge bridges, tunnels, ramps and cliff edges, and finish each hole in as few strokes as possible. Coins, chests and unlockable balls and trails keep the progression moving between tournaments.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.36 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
     checked: "2026-10-31",
+  },
+  {
+    slug: "idle-farm-inc-tycoon-game",
+    title: "Idle Farm Inc.: Tycoon Game",
+    developer: "Tapps Games",
+    category: "Simulation",
+    installs: "10,000+",
+    rating: 4.52,
+    package: "br.com.tapps.tap.idle.clicker.farm.inc",
+    playUrl: "https://play.google.com/store/apps/details?id=br.com.tapps.tap.idle.clicker.farm.inc",
+    icon: "https://play-lh.googleusercontent.com/Mv74Q-efb2MQp3HkjJD2EQMxNDsODjzfng6fYBDhezBjth2P7h50FTV3FlUNmjN7QugkXDCxOFVc090YN83yqA",
+    summary: "Tap into the farm business, grow crops and build an agro empire in this idle farming tycoon.",
+    description: "Idle Farm Inc.: Tycoon Game is a simulation game for Android by Tapps Games. Tap into the farm business, grow crops and build an agro empire in this idle farming tycoon.\n\nIt is a relaxed, tap-driven tycoon game: sow and harvest crops, raise animals, collect eggs and hay, and reinvest profits into equipment and automation so the farm keeps earning while you are away. Rare animals and golden eggs add a lucky twist to the steady grind.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.52 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-10-31",
   },];
 
 export const CATEGORIES = [...new Set(GAMES.map((g) => g.category))].sort();
