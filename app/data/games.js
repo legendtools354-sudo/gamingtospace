@@ -1219,7 +1219,35 @@ export const GAMES = [
     summary: "Tap into the farm business, grow crops and build an agro empire in this idle farming tycoon.",
     description: "Idle Farm Inc.: Tycoon Game is a simulation game for Android by Tapps Games. Tap into the farm business, grow crops and build an agro empire in this idle farming tycoon.\n\nIt is a relaxed, tap-driven tycoon game: sow and harvest crops, raise animals, collect eggs and hay, and reinvest profits into equipment and automation so the farm keeps earning while you are away. Rare animals and golden eggs add a lucky twist to the steady grind.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.52 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
     checked: "2026-10-31",
-  },];
+  },  {
+    slug: "galaxy-invaders-space-shooter",
+    title: "Galaxy Invaders: Space Shooter",
+    developer: "Studio 47 Games",
+    category: "Arcade",
+    installs: "10,000+",
+    rating: 4.45,
+    package: "com.studio47games.alien.space.starship.shooter.sky.galaxy.jet",
+    playUrl: "https://play.google.com/store/apps/details?id=com.studio47games.alien.space.starship.shooter.sky.galaxy.jet",
+    icon: "https://play-lh.googleusercontent.com/Mip3eh5nzr6Mm42E1SAeuwNuyFKwelmFQ8fKVoJoQUpOKuH3Ojmjb8AoMPOHAlXuauHpI1IBWDcbHlPIsm2d",
+    summary: "Blast alien waves in a space war across the galaxy with an upgradeable spaceship.",
+    description: "Galaxy Invaders: Space Shooter is an arcade game for Android by Studio 47 Games. Blast alien waves in a space war across the galaxy with an upgradeable spaceship.\n\nIt is built around fast arcade shooting: dodge alien fire, blast waves of invaders, take on huge bosses and upgrade your spaceship's weapons and shields between missions, with offline play for sessions anywhere.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.45 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-11-01",
+  },
+  {
+    slug: "space-shooter",
+    title: "Space Shooter",
+    developer: "Emado",
+    category: "Action",
+    installs: "1,000+",
+    rating: null,
+    package: "com.Emado.SpaceShooter",
+    playUrl: "https://play.google.com/store/apps/details?id=com.Emado.SpaceShooter",
+    icon: "https://play-lh.googleusercontent.com/klYTaiG3NXZfcP2CkG3bxXqoB17QeMExGxpBH6_m1rZmlADLUcqrrZZdyCstfx35d0csHhGRD6YTaXbcRb5SQg",
+    summary: "Blow up ever-growing herds of enemy spaceships in an ad-free arcade space shooter.",
+    description: "Space Shooter is an action game for Android by Emado. Blow up ever-growing herds of enemy spaceships in an ad-free arcade space shooter.\n\nSessions are fast and direct: grab power-ups, dodge enemy fire and clear ever-growing herds of spaceships, with a random mode, new battle locations, ship colour customisation and global leaderboards to keep runs fresh.\n\nOn Google Play it sits in the 1,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It does not show a public rating yet on Google Play, which is common for very new or small titles. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-11-01",
+  },
+];
 
 export const CATEGORIES = [...new Set(GAMES.map((g) => g.category))].sort();
 export function getGame(slug) { return GAMES.find((g) => g.slug === slug); }
