@@ -1275,6 +1275,34 @@ export const GAMES = [
     description: "Cozy Match 3: Gem Puzzle Game is a puzzle game for Android by BPA Games. Swap and match sparkling jewels across thousands of relaxing match-3 levels, playable offline.\n\nIt is classic three-in-a-row play with a cosy twist: swap shiny gems, build powerful combos and chain reactions, and use boosters to clear the trickiest boards, from glittering gem gardens to dazzling treasure caves. A daily wheel hands out bonuses as you work through the levels, and the whole game plays offline with no Wi-Fi needed.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.74 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
     checked: "2026-11-01",
   },
+  {
+    slug: "wordie-word-seek-puzzle",
+    title: "Wordie: Word Seek Puzzle",
+    developer: "Dataoris",
+    category: "Word",
+    installs: "1,000+",
+    rating: null,
+    package: "com.dataoris.innovation.wordie",
+    playUrl: "https://play.google.com/store/apps/details?id=com.dataoris.innovation.wordie",
+    icon: "https://play-lh.googleusercontent.com/gCxHvlx9LOpcFq0gPfWivgc-WostZRLV9kdQPYpz80uXKzaZKPBHyBzWYnLt7LaxVJevkyeNQpkHONXsGLV4rVo",
+    summary: "Seek hidden words in letter grids in this calm word-search puzzle.",
+    description: "Wordie: Word Seek Puzzle is a word game for Android by Dataoris. Seek hidden words in letter grids in this calm word-search puzzle.\n\nIt is a word search built for playing together: swipe to find words in any direction, take on the daily puzzle that is the same for everyone, and race nearby players over Bluetooth with no Wi-Fi or login needed. Reveal-a-letter powers and keys unlock themed packs like Animals, Nature, Ocean and Space, while streaks and a global ranking keep the daily habit going.\n\nOn Google Play it sits in the 1,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It does not show a public rating yet on Google Play, which is common for very new or small titles. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-11-02",
+  },
+  {
+    slug: "chessle-daily-chess-puzzles",
+    title: "Chessle - Daily Chess Puzzles",
+    developer: "Lupus Firmware",
+    category: "Board",
+    installs: "1,000+",
+    rating: null,
+    package: "com.lupusapps.chessle",
+    playUrl: "https://play.google.com/store/apps/details?id=com.lupusapps.chessle",
+    icon: "https://play-lh.googleusercontent.com/Ly28bZRmyBmpYRYqWr2HKNyquTQ5DJTlqhcgcm78xqg-sIRXPMiushgogRzj8w3iCOZ5mYTT3J_5t829-PwGYQ",
+    summary: "Solve a fresh daily chess puzzle and test your tactics one move at a time.",
+    description: "Chessle - Daily Chess Puzzles is a board game for Android by Lupus Firmware. Solve a fresh daily chess puzzle and test your tactics one move at a time.\n\nIt is a chess puzzle game inspired by Wordle: one daily checkmate puzzle, three attempts, and instant green-or-red feedback on every move. Mate-in-2 and mate-in-3 challenges arrive each day, an unlimited mode matches puzzles to your ELO level, and streaks, solve times and a 7-day history track your progress — all fully offline with no account needed.\n\nOn Google Play it sits in the 1,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It does not show a public rating yet on Google Play, which is common for very new or small titles. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-11-02",
+  }
 ];
 
 export const CATEGORIES = [...new Set(GAMES.map((g) => g.category))].sort();
