@@ -1386,7 +1386,35 @@ export const GAMES = [
     summary: "Play the classic retro snake arcade game: eat, grow and avoid crashing.",
     description: "Snake Classic: Retro Arcade is an arcade game for Android by PRANTA Dutta. Play the classic retro snake arcade game: eat, grow and avoid crashing.\n\nIt brings back the phone classic in its purest form: guide the snake to food, grow longer with every bite, and keep it from running into walls or its own tail. The simple controls and quick rounds make it a natural game to dip into for a minute or two at a time.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It does not show a public rating yet on Google Play, which is common for very new or small titles. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
     checked: "2026-11-03",
-  }
+  },
+  {
+    slug: "train-tracks-puzzle",
+    title: "Train Tracks Puzzle",
+    developer: "Aliaksandr Uvarau",
+    category: "Puzzle",
+    installs: "10,000+",
+    rating: 4.87,
+    package: "com.alexuvarov.traintracks",
+    playUrl: "https://play.google.com/store/apps/details?id=com.alexuvarov.traintracks",
+    icon: "https://lh3.googleusercontent.com/js9TtlvnQUmgMdaQ9d0boefH0c-GsHas0BCU0DuS-3sM3m2X6Ez99Rg-Tj1DYSmhZJJ5YBB77fA6nbGaK-CFSQNx3_Q8KyqlHF8q",
+    summary: "Lay tracks and route trains through logic puzzles.",
+    description: "Train Tracks Puzzle is a puzzle game for Android by Aliaksandr Uvarau. Lay tracks and route trains through logic puzzles.\n\nIt is built for short, thoughtful sessions: a few minutes is usually enough for one puzzle, and the difficulty tends to rise steadily rather than jumping all at once.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.87 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-11-04",
+  },
+  {
+    slug: "color-away-tap-block-puzzle",
+    title: "Color Away - Tap Block Puzzle",
+    developer: "Easybrain",
+    category: "Puzzle",
+    installs: "10,000+",
+    rating: 4.8,
+    package: "com.easybrain.block.out.puzzle",
+    playUrl: "https://play.google.com/store/apps/details?id=com.easybrain.block.out.puzzle",
+    icon: "https://lh3.googleusercontent.com/PnmKf2x5PMvTcly3STWfs9dPzn_OWh8xgKLNgcTafYpvWyUahdsd25AvxVFRCXsKo8V3p1R1NroqTw7f_ZUGWO_58VCiaEVXopFr",
+    summary: "Tap colored blocks to clear them from the pile and solve each board.",
+    description: "Color Away - Tap Block Puzzle is a puzzle game for Android by Easybrain. Tap colored blocks to clear them from the pile and solve each board.\n\nIt is built for short, thoughtful sessions: a few minutes is usually enough for one puzzle, and the difficulty tends to rise steadily rather than jumping all at once.\n\nOn Google Play it sits in the 10,000+ installs bracket, so it is still a small, lesser-known title compared with the chart-topping games in the same category. It holds a 4.8 rating on Google Play. GamingToSpace lists it here with a rewritten description and links you to its official Google Play page, where you can check the current size, requirements and reviews before you install — we do not host APK files ourselves.",
+    checked: "2026-11-04",
+  },
 ];
 
 export const CATEGORIES = [...new Set(GAMES.map((g) => g.category))].sort();
